@@ -1,0 +1,204 @@
+
+/**
+
+COLORES
+color: #000000
+color: #4E4FEB;
+color: #068FFF
+color: #EEEEEE
+
+TIPOGRAFIAS
+font-family: 'Abril Fatface', cursive;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Dancing Script', cursive;
+**/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    background-image: url(../assets/header-fotor-editada.jpg);
+}
+
+
+
+.sectionthehead nav li a{
+    list-style: none;
+    color: #068FFF;
+    text-decoration: none;
+}
+
+
+.sectionthehead nav ul{
+    display: flex;
+    font-size: 6rem;
+    padding: 5rem;
+    justify-content: space-evenly;
+}
+
+
+.sectionthefirst{
+    font-size: 7.0rem;
+    text-align: center;
+    color: #4E4FEB;
+    font-family: 'Abril Fatface', cursive;
+    width: 120%;
+    height: 70rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70%;
+}
+
+.section-lorem{
+    font-size: 3rem;
+    margin-top: 30rem;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+.sectionthelist{
+    padding: 10rem;
+    margin: .125rem;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: 50% 50%;
+    }
+
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+}
+
+.item2{
+    grid-column-start: 4;
+    grid-column-end: 8;
+    text-align: center;
+}
+
+.item3{
+    grid-column-start: 8;
+    grid-column-end: 11;
+    text-align: center;
+}
+.item4{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+}
+.item5{
+    grid-column-start: 6;
+    grid-column-end: 11;
+    text-align: center;
+}
+
+footer div{
+    font-size: 2rem;
+    color: white;
+}
+
+
+.sectionfooterindex{
+    padding: 70rem;
+    margin: 10rem;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1rem;
+}
+
+
+    /**display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.item01{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: before;
+}
+
+.item02{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+**/
+.sectionhorarios {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 10rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    orientation: center;
+    padding: auto;
+    margin: 10%;
+    text-align: center;
+}
+
+.sectionnosotros article {
+    display: flex;
+    flex-direction: row;
+    font-size: 3rem;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    margin: 20rem;
+    padding: 5rem;
+}
+
+.sectionconsulta{
+    padding: 2rem ;
+    margin: 2rem;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.sectionconsulta h1{
+    padding: 2rem;
+    margin: 2rem;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 5rem;  
+}
+
+input,
+textarea {
+    padding: 5rem;
+    border: .0625rem solid #EEEEEE;
+    border-radius: .25rem;
+    box-sizing: border-box;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+}
+
+input[type="submit"] {
+    background-color: #4E4FEB;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.sectionconsulta h2{
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.sectionconsulta div{
+    padding: 2rem;
+    margin: 2rem    ;
+}
