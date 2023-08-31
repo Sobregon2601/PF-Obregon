@@ -111,12 +111,21 @@ footer div{
 
 
 .sectionfooterindex{
-    padding-top: 80rem;
-    margin: 40rem;
+    padding-top: 5rem;
+    margin-top: 5rem;
     display: flex;
     justify-content: space-between;
     margin-right: 1rem;
 }
+
+.sectionfooterindexindex{
+    margin: 100rem;
+    margin-left: 5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1rem;
+}
+    
 
 
     /**display: grid;
@@ -246,9 +255,9 @@ input[type="submit"] {
         row-gap: 2rem;
     }
 
-    .sectionfooterindex div{
-        margin-top: 70rem;
-        margin-left: -27rem;
+
+    .sectionfooterindexindex div{
+        margin-top: 90rem;
         display: flex;
         flex-direction: column;
     }
@@ -273,6 +282,16 @@ input[type="submit"] {
 
     .sectionthelist{
         margin-left: -5rem;
+    }
+
+    .sectionfooterindexindex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .item02{
+        margin-top: -10rem;
     }
 
 
