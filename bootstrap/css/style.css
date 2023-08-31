@@ -1,0 +1,23 @@
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    background-image: url(../../assets/header-fotor-editada.jpg);
+    width: 100%;
+}
+.sectionparrafos{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+}
