@@ -20,6 +20,8 @@ font-family: 'Dancing Script', cursive;
 }
 
 body{
+    width: auto;
+    height: auto;
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
@@ -202,3 +204,20 @@ input[type="submit"] {
     padding: 2rem;
     margin: 2rem    ;
 }
+
+
+
+
+
+/**********media 1024px****************/
+@media (max-width:1024px)
+
+
+
+
+/***********media 768*****************/
+
+
+
+
+/******************meida 458************/{}
