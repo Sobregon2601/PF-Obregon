@@ -288,6 +288,7 @@ input[type="submit"] {
         display: grid;
         grid-template-rows: 5rem 5rem;
         justify-content: center;
+        text-align: center;
     }
 
     /***.sectionfooterindexindex div{
