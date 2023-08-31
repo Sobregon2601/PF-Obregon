@@ -284,15 +284,20 @@ input[type="submit"] {
         margin-left: -5rem;
     }
 
-    .sectionfooterindexindex{
+    .sectionfooterindexindex {
+        display: grid;
+        grid-template-rows: 5rem 5rem;
+        justify-content: center;
+    }
+
+    /***.sectionfooterindexindex div{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-    }
-
-    .item02{
-        margin-top: -10rem;
+        justify-content: center;
+        align-items: center;***/
     }
 
 
-}
+
+
+
