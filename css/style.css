@@ -19,17 +19,28 @@ font-family: 'Dancing Script', cursive;
     box-sizing: border-box;
 }
 
+
+
 body{
-    margin: 5rem;
+    margin: 1rem;
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    width: 99%;
+}
+
+.bodyprincipal{
+    margin: 1rem;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 83%;
 }
 
 
 main{
     background-image: url(../assets/header-fotor-editada.jpg);
+    
 }
 
 
